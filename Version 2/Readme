@@ -1,1 +1,19 @@
-###
+The objective of this project is to detect cyberbullying on social media
+It uses NLTK Library's machine learning algorithms
+All in all 8 algorithms have been used to get the maximum accuracy of 70-85%
+
+
+Use the code in the following sequence:
+1. dashSentiment.py
+2. TestClassifierModel.py
+3. TestClassifierModelTester.py
+
+The first File will use the Dataset provided in the data set folder and create pickles in "pickled_algos" folder.
+It will create pickles for following things:
+1. Documents
+2. Word Features
+3. FeatureSets
+4. All the Classifiers
+
+Next Use the 2nd file to use the code from pickle
+The 3rd file is used to test the Model which returns sentiment.
